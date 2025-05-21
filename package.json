@@ -1,0 +1,14 @@
+{
+  "name": "communauto-notifier",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "run.mjs",
+  "scripts": {
+    "start": "node run.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-notifier": "^10.0.1",
+    "pushover-notifications": "^1.2.2"
+  }
+}
